@@ -9,6 +9,7 @@ const theme = createTheme({
       default: "#1f0623",
     },
   },
+
   components: {
     MuiTable: {
       styleOverrides: {
@@ -27,6 +28,9 @@ const theme = createTheme({
         },
       },
     },
+  },
+  typography: {
+    fontFamily: ["Oswald", "sans-serif"].join(","),
   },
 });
 
